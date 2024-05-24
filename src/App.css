@@ -1,0 +1,31 @@
+/* Add this CSS in a separate file, e.g., Form.css and import it in Form.js */
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+}
+
+div {
+  margin-bottom: 1em;
+}
+
+label {
+  margin-bottom: .5em;
+  color: #333333;
+  display: block;
+}
+
+input, select, button {
+  border: 1px solid #CCCCCC;
+  padding: .5em;
+  font-size: 1em;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+span {
+  color: red;
+  font-size: .875em;
+}
